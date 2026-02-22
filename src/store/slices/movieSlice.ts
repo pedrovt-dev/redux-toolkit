@@ -11,10 +11,10 @@ const movieSlice = createSlice({
         addMovie: (state, action) => {
             state.movies.push(action.payload);
         },
-        removeMovie: (state, action) => { }
+        // removeMovie: (state, action) => { }
     }
 });
 
 // movieSlice.actions --> devuelve las funciones de los reducers
-export const { addMovie, removeMovie } = movieSlice.actions;
+export const { addMovie } = movieSlice.actions;
 export default movieSlice.reducer;

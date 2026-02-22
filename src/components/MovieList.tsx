@@ -1,8 +1,8 @@
-import React from "react";
 import { useSelector } from 'react-redux'; // Obtener datos del estado
+import type { RootState } from '../store/store';
 
 export const MovieList = () => {
-    const movies = useSelector((state) => state.movies.movies);
+    const movies = useSelector((state: RootState) => state.movies.movies);
     console.log(movies);
     return (
         <>
