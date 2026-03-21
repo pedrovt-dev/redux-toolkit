@@ -1,6 +1,8 @@
 import { useDispatch, useSelector } from 'react-redux'; // Obtener datos del estado
 import type { AppDispatch, RootState } from '../store/store';
 import { addMovie } from '../store/slices/movieSlice';
+import { Button } from './adapters/antd/components/Button';
+import { Button as ButtonAnt } from 'antd';
 
 export const MovieList = () => {
     const movies = useSelector((state: RootState) => state.movies.movies); // Para obtener el listado de peliculas
@@ -13,7 +15,8 @@ export const MovieList = () => {
             {movies.map((movie) => (
                 <div key={movie.id}>{movie.name}</div>
             ))}
-            <button onClick={() => dispatch(addMovie(newMovie))}></button >
+            <Button onClick={() => dispatch(addMovie(newMovie))}>asdasd</Button >
+            <ButtonAnt type='primary'>asdasd</ButtonAnt>
         </>
     )
 }
