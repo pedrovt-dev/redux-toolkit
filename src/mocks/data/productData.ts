@@ -1,0 +1,80 @@
+export const products = [
+    {
+        id: 1,
+        nombre: "Auriculares X100",
+        categoria: "Electrónica",
+        precio_eur: 59.99,
+        coste_eur: 32.50,
+        stock: 120,
+        valoracion_5: 4.3,
+        ventas_mes: 340,
+        proveedor: "TechNova",
+        pais_origen: "China",
+        peso_kg: 0.25
+    },
+    {
+        id: 2,
+        nombre: "Teclado Mecánico K8",
+        categoria: "Electrónica",
+        precio_eur: 89.90,
+        coste_eur: 45.00,
+        stock: 80,
+        valoracion_5: 4.7,
+        ventas_mes: 210,
+        proveedor: "KeyPro",
+        pais_origen: "Alemania",
+        peso_kg: 0.9
+    },
+    {
+        id: 3,
+        nombre: "Silla Gamer Pro",
+        categoria: "Mobiliario",
+        precio_eur: 199.99,
+        coste_eur: 110.00,
+        stock: 45,
+        valoracion_5: 4.5,
+        ventas_mes: 95,
+        proveedor: "ComfortSeat",
+        pais_origen: "Polonia",
+        peso_kg: 18.5
+    },
+    {
+        id: 4,
+        nombre: "Lámpara LED Smart",
+        categoria: "Hogar",
+        precio_eur: 24.50,
+        coste_eur: 10.00,
+        stock: 300,
+        valoracion_5: 4.1,
+        ventas_mes: 500,
+        proveedor: "Lightify",
+        pais_origen: "España",
+        peso_kg: 0.4
+    },
+    {
+        id: 5,
+        nombre: "Botella Térmica 1L",
+        categoria: "Deporte",
+        precio_eur: 18.99,
+        coste_eur: 7.20,
+        stock: 200,
+        valoracion_5: 4.6,
+        ventas_mes: 620,
+        proveedor: "HydroLife",
+        pais_origen: "Italia",
+        peso_kg: 0.35
+    },
+    {
+        id: 6,
+        nombre: "Mochila Urbana",
+        categoria: "Accesorios",
+        precio_eur: 39.99,
+        coste_eur: 15.00,
+        stock: 150,
+        valoracion_5: 4.4,
+        ventas_mes: 410,
+        proveedor: "UrbanPack",
+        pais_origen: "Vietnam",
+        peso_kg: 0.8
+    }
+];
